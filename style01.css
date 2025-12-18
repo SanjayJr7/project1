@@ -1,0 +1,65 @@
+/* css comments */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+        background-color: blueviolet;
+}
+.container1{
+        background-color: #070709;
+        height:100vh;
+}
+/* navbar */
+
+.navbar{
+    height:40px;
+    margin-top: 20px;
+    position: fixed;
+    z-index: 999;
+   background-image:linear-gradient(to left, rgb(36, 35, 35) #440000);
+    display: flex;
+    align-items: center;
+    padding :25px 50px;
+    justify-content: space-between;
+    /* position: absolute; */
+    top:0;
+    right:0;
+    border: 2px solid white;
+    border-radius: 10px;
+    gap:20px;
+    
+}
+.bt1{
+    padding:4px;
+    border-radius: 10px;
+    background-color: black;
+    color:red;
+}
+.bt2{
+    background-color:#440000;
+    color:white;
+    padding:4px;
+    border-radius: 10px;
+}
+.container2{
+        background-image:linear-gradient(to left, #440000);
+        height:100vh;
+}
+.container3{
+        background-image:linear-gradient(to left, #3c000b);
+        height:100vh;
+}
+.container4{
+       background-image:linear-gradient(to left, #4b2d2e, #f42c1d, #ae1918, #7d1c1a);
+        height:100vh;
+}
+.container5{
+        background-image:linear-gradient(to left, #4b2d2e, #f42c1d, #ae1918, #7d1c1a);
+        height:150vh;
+}
+.container6{
+        background-image:linear-gradient(to left, #4b2d2e, #f42c1d, #ae1918, #7d1c1a);
+        height:40vh;
+}
